@@ -1,0 +1,15 @@
+/* src/components/NavBar/NavBar.css */
+
+/* Ensures adequate spacing around elements */
+.navbar-brand,
+.navbar-profile,
+.navbar-toggle {
+  margin-right: 10px; /* Adjust spacing to your liking */
+}
+
+/* Ensure the banner remains centered regardless of other elements */
+.navbar-company-name {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
